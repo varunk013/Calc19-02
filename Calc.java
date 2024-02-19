@@ -29,6 +29,11 @@ class calculator
     System.out.println("Difference is:" +a.Diff(2,3));
     System.out.println("Product is:" +a.Prod(2,9));
     System.out.println("Remainder is:" +a.Div(2,7));
-    
+     double squre =a.squre(num1);
+    System.out.println("Squre of Number  is :" +squre);
+        
+    double cube =a.cube(num1);
+    System.out.println("Cube Number is :"+cube);
+
     }
 }
